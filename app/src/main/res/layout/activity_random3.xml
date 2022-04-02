@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:screenOrientation="reversePortrait"
+    tools:context=".Random3Activity">
+
+    <TextView
+        android:id="@+id/sortearN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Sortear dados"
+        android:textColor="#686767"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bsortear"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/greem"
+        android:padding="8dp"
+        android:text="Sortear"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sorteado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Números sorteados "
+        android:textColor="#686767"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/Dado1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Números sorteados : "
+            android:textColor="#686767"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/Dado2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Números sorteados : "
+            android:textColor="#686767"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/Dado3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Números sorteados : "
+            android:textColor="#686767"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
